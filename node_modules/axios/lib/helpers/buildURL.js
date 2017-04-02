@@ -29,8 +29,6 @@ module.exports = function buildURL(url, params, paramsSerializer) {
   var serializedParams;
   if (paramsSerializer) {
     serializedParams = paramsSerializer(params);
-  } else if (utils.isURLSearchParams(params)) {
-    serializedParams = params.toString();
   } else {
     var parts = [];
 
@@ -66,3 +64,4 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
   return url;
 };
+
