@@ -1,11 +1,13 @@
 {
-  "name": "boilerplate",
+  "name": "weatherapp",
   "version": "1.0.0",
-  "description": "Simple react app",
+  "description": "Simple weather app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "node": "7.7.4",
     "start": "node server.js"
+
   },
   "author": "Andrew Mead",
   "license": "MIT",
